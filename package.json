@@ -1,0 +1,15 @@
+{
+  "name": "metaverse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "canvas": "^2.0.0-alpha.5",
+    "pixl-request": "^1.0.17"
+  }
+}

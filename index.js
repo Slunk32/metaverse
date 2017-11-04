@@ -128,7 +128,7 @@ ctx.stroke();
 
 const request = new PixlRequest();
 const qrUrl =
-  'https://api.qrserver.com/v1/create-qr-code/?size=410x410&margin=15&data=' + data.share_url;
+  'https://api.qrserver.com/v1/create-qr-code/?size=410x410&ecc=H&margin=15&data=' + data.share_url;
 const thumbnail = data.thumbnail;
 
 function fetchThumbnailAndCreateImage(err, resp, data) {
